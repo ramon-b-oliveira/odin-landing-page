@@ -2,7 +2,7 @@
 
 .header,
 .main,
-footer {
+.footer {
     background-color: #1f2937;
 }
 
@@ -197,4 +197,13 @@ header ol {
     background-color: #3882f6;
     border: #f9faf8 solid 2px;
     border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f9f9f9;
+    font-size: 18px;
+    height: 50px;
 }
