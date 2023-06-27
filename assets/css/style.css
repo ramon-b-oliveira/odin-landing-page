@@ -14,7 +14,7 @@ footer {
 }
 
 .header {
-    padding: 8px 10%;
+    padding: 8px 15%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -39,3 +39,47 @@ header ol {
     gap: 15px;
 }
 
+.main {
+    display: flex;
+    padding: 70px 15%;
+}
+
+.main-text {
+    text-align: left;
+    flex: 1;
+}
+
+.main-text h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 10px;
+}
+
+.main-text p {
+    flex: 1 1 50%;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main-text button {
+    font-size: 20px;
+    padding: 5px 20px;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+}
+
+.main-img {
+    display: flex;
+    justify-content: end;
+    flex: 1 1 30%;
+}
+
+.main-img img {
+    display: flex;
+    width: 500px;
+    height: auto;
+}
