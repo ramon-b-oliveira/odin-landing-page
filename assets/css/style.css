@@ -83,3 +83,64 @@ header ol {
     width: 500px;
     height: auto;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 100px;
+    margin-bottom: 50px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.item-img {
+    width: 200px;
+    height: 220px;
+    border: #3882f6 solid 3px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#image-1 {
+    background-image: url(../imgs/abhishek-tiwari-G-DvZbyH2zw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#image-2 {
+    background-image: url(../imgs/kristin-o-karlsen-aOKzPP5ZL5U-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#image-3 {
+    background-image: url(../imgs/robin-billy-50v6Mej_RLo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#image-4 {
+    background-image: url(../imgs/wesley-whitfield--QwONiMQE_I-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
