@@ -144,3 +144,23 @@ header ol {
     background-size: cover;
     background-position: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 20%;
+}
+
+.quote-text {
+    text-align: left;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-sign {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 25px;
+}
