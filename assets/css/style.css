@@ -164,3 +164,37 @@ header ol {
     margin-top: 10px;
     margin-right: 25px;
 }
+
+.sign-up {
+    color: #f9f9f9;
+    display: flex;
+    margin: 150px 15%;
+    padding: 50px 200px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+
+.sign-up-text {
+    display: flex;
+    flex: 2 1 auto;
+    flex-direction: column;
+}
+
+.sign-up-text h3 {
+    text-align: left;
+    font-weight: bold;
+}
+
+.sign-up-text p {
+    text-align: left;
+}
+
+.sign-up-button button {
+    color: #f9faf8;
+    flex: 1 0 200px;
+    padding: 7px 30px;
+    background-color: #3882f6;
+    border: #f9faf8 solid 2px;
+    border-radius: 10px;
+}
